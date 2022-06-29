@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="450.0" prefWidth="350.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.MainMenu">
+   <children>
+      <VBox alignment="CENTER" layoutX="75.0" layoutY="47.0" prefHeight="354.0" prefWidth="200.0">
+         <children>
+            <Button alignment="CENTER" mnemonicParsing="false" onAction="#OnActionToCusts" prefHeight="25.0" prefWidth="180.0" text=" View Customer Records" textAlignment="CENTER">
+               <VBox.margin>
+                  <Insets bottom="40.0" top="20.0" />
+               </VBox.margin>
+            </Button>
+            <Button alignment="CENTER" mnemonicParsing="false" onAction="#OnActionToAppts" prefHeight="25.0" prefWidth="180.0" text="View Appointments" textAlignment="CENTER">
+               <VBox.margin>
+                  <Insets bottom="40.0" />
+               </VBox.margin>
+            </Button>
+            <Button alignment="CENTER" mnemonicParsing="false" onAction="#OnActionToSpecialReport" prefWidth="180.0" text="View Customers By Country">
+               <VBox.margin>
+                  <Insets bottom="40.0" />
+               </VBox.margin>
+            </Button>
+            <Button alignment="CENTER" mnemonicParsing="false" onAction="#OnActionToTypes" prefWidth="180.0" text="View Customer Appt Totals">
+               <VBox.margin>
+                  <Insets bottom="40.0" />
+               </VBox.margin>
+            </Button>
+            <Button alignment="CENTER" mnemonicParsing="false" onAction="#OnActionToContacts" prefWidth="180.0" text="View Contact Schedules">
+               <VBox.margin>
+                  <Insets bottom="40.0" />
+               </VBox.margin>
+            </Button>
+            <Button alignment="CENTER" mnemonicParsing="false" onAction="#OnActionClose" prefHeight="25.0" prefWidth="180.0" text="Close Program" textAlignment="CENTER">
+               <VBox.margin>
+                  <Insets bottom="20.0" />
+               </VBox.margin></Button>
+         </children>
+      </VBox>
+      <Pane prefHeight="57.0" prefWidth="350.0">
+         <children>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="41.0" layoutY="15.0" text="What would you like to do today?" textAlignment="CENTER">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

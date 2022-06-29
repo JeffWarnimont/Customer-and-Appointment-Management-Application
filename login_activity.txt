@@ -1,0 +1,16 @@
+Attempted login with username admins and password admins at 2022-04-17 16:16:23.7223771 UTC failed
+Attempted login with username admin and password admin at 2022-04-17 16:16:31.8622978 UTC successful
+Attempted login with username test and password test at 2022-04-17 16:34:28.5835524 UTC successful
+Attempted login with username test and password test at 2022-04-17 17:01:59.2264281 UTC successful
+Attempted login with username test and password test at 2022-04-17 17:04:11.9963647 UTC successful
+Attempted login with username test and password test at 2022-04-17 17:06:45.2706332 UTC successful
+Attempted login with username test and password test at 2022-04-17 17:18:06.8142236 UTC successful
+Attempted login with username test and password test at 2022-04-17 17:20:51.375483 UTC successful
+Attempted login with username test and password test at 2022-04-17 17:28:07.3551722 UTC successful
+Attempted login with username admin and password admin at 2022-04-17 17:43:08.9365934 UTC successful
+Attempted login with username admin and password admin at 2022-04-17 17:58:43.536505 UTC successful
+Attempted login with username test and password test at 2022-04-18 18:25:39.4416372 UTC successful
+Attempted login with username test and password test at 2022-04-18 20:37:48.1873907 UTC successful
+Attempted login with username test and password test at 2022-04-19 13:11:58.3395536 UTC successful
+Attempted login with username test and password test at 2022-04-19 13:49:26.2424734 UTC successful
+Attempted login with username test and password test at 2022-04-19 16:32:59.8685131 UTC successful
