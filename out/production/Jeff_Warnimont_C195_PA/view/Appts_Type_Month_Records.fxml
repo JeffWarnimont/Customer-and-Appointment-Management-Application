@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="300.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ApptsTypeMonthRecords">
+   <children>
+      <VBox prefHeight="185.0" prefWidth="300.0">
+         <children>
+            <ComboBox fx:id="CustomerCB" prefHeight="25.0" prefWidth="300.0">
+               <VBox.margin>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="20.0" />
+               </VBox.margin>
+            </ComboBox>
+            <ComboBox fx:id="TypeCB" prefHeight="25.0" prefWidth="297.0">
+               <VBox.margin>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </VBox.margin>
+            </ComboBox>
+            <ComboBox fx:id="MonthCB" prefHeight="25.0" prefWidth="292.0">
+               <VBox.margin>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </VBox.margin>
+            </ComboBox>
+         </children>
+      </VBox>
+      <Button alignment="CENTER" contentDisplay="CENTER" layoutX="100.0" layoutY="235.0" mnemonicParsing="false" onAction="#OnActionToMainMenu" prefWidth="100.0" text="Exit" textAlignment="CENTER">
+         <padding>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </padding>
+      </Button>
+      <Button alignment="CENTER" contentDisplay="CENTER" layoutX="100.0" layoutY="185.0" mnemonicParsing="false" onAction="#OnActionRunReport" prefWidth="100.0" text="Run Report" textAlignment="CENTER">
+         <padding>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </padding>
+      </Button>
+   </children>
+</AnchorPane>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.Customers">
+   <children>
+      <VBox prefHeight="600.0" prefWidth="800.0">
+         <children>
+            <TableView prefHeight="399.0" prefWidth="800.0">
+              <columns>
+                <TableColumn prefWidth="100.0" text="First Name" />
+                <TableColumn prefWidth="100.0" text="Last Name" />
+                <TableColumn prefWidth="100.0" text="Address" />
+                  <TableColumn prefWidth="100.0" text="Postal Code" />
+                  <TableColumn prefWidth="100.0" text="Country" />
+                  <TableColumn prefWidth="100.0" text="State/Province" />
+                  <TableColumn prefWidth="100.0" text="Phone Number" />
+                  <TableColumn prefWidth="100.0" text="Customer ID" />
+              </columns>
+            </TableView>
+            <HBox prefHeight="100.0" prefWidth="800.0">
+               <children>
+                  <Button mnemonicParsing="false" onAction="#OnActionNavToAddCustomer" prefHeight="25.0" prefWidth="80.0" text="Add">
+                     <HBox.margin>
+                        <Insets bottom="10.0" left="20.0" right="10.0" top="10.0" />
+                     </HBox.margin></Button>
+                  <Button mnemonicParsing="false" onAction="#OnActionNavToModCustomer" prefHeight="25.0" prefWidth="80.0" text="Modify">
+                     <HBox.margin>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                     </HBox.margin></Button>
+                  <Button alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#OnActionDeleteCustomer" prefHeight="25.0" prefWidth="80.0" text="Delete">
+                     <HBox.margin>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                     </HBox.margin></Button>
+               </children>
+            </HBox>
+            <TableView prefHeight="200.0" prefWidth="200.0">
+              <columns>
+                <TableColumn prefWidth="100.0" text="Appointment ID" />
+                  <TableColumn prefWidth="50.0" text="Title" />
+                  <TableColumn prefWidth="75.0" text="Description" />
+                  <TableColumn prefWidth="75.0" text="Location" />
+                  <TableColumn prefWidth="75.0" text="Contact" />
+                  <TableColumn prefWidth="75.0" text="Type" />
+                  <TableColumn prefWidth="100.0" text="Start Date/Time" />
+                  <TableColumn prefWidth="100.0" text="End Date/Time" />
+                  <TableColumn prefWidth="75.0" text="Customer ID" />
+                  <TableColumn prefWidth="75.0" text="User ID" />
+              </columns>
+            </TableView>
+            <HBox prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Button mnemonicParsing="false" onAction="#OnActionNavToAddAppt" prefHeight="25.0" prefWidth="79.0" text="Add">
+                     <HBox.margin>
+                        <Insets bottom="10.0" left="20.0" right="10.0" top="10.0" />
+                     </HBox.margin></Button>
+                  <Button mnemonicParsing="false" onAction="#OnActionNavToModAppt" prefHeight="25.0" prefWidth="80.0" text="Modify">
+                     <HBox.margin>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                     </HBox.margin></Button>
+                  <Button mnemonicParsing="false" onAction="#OnActionDeleteAppt" prefHeight="25.0" prefWidth="80.0" text="Delete">
+                     <HBox.margin>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                     </HBox.margin></Button>
+                  <Button mnemonicParsing="false" onAction="#OnActionReturnToMain" prefHeight="25.0" prefWidth="80.0" text="Exit">
+                     <HBox.margin>
+                        <Insets bottom="10.0" left="400.0" right="10.0" top="10.0" />
+                     </HBox.margin></Button>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
