@@ -1,4 +1,4 @@
-# Jeff_Warnimont_C195_Final_Assessment
+# Customer and Appointment Management Application
 
 Appointment scheduling application written in Java utilizing IntelliJ IDEA and MySQL Workbench.
 
