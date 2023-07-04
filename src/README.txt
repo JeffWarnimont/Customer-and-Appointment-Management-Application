@@ -1,9 +1,10 @@
 Title and Purpose:
-Jeff_Warnimont_C195_PA is a scheduling application used to view, add, delete, and modify customer records and appointments.
-This application works in tandem with a MySQL database and reads data from and writes data to the database.  All appointment
-times are saved to the database in UTC and are displayed in the application in the user's local time based off of their device
-default timezone setting. All text on the login screen will display in either English or French depending on the user's device
-default locale setting.
+This is a customer management and scheduling application used to view, add, delete, and modify customer records and appointments.
+This application works in tandem with a MySQL database and reads data from and writes data to the database via the JDBC connector
+and SQL prepared statements.  All appointment times are saved to the database in UTC and are displayed in the application in the 
+user's local time based off of their device default timezone setting. All text on the login screen will display in either English 
+or French depending on the user's device default locale setting.  The GUI was created using JavaFX and the design structure follows 
+the Model-View-Controller method.
 
 Created by:
 Jefferson Warnimont
@@ -24,7 +25,7 @@ When the application starts, the user will be presented with a login screen with
 appropriate login credentials in the username and password text fields and click the Login button.  If credentials match
 user data stored in the database the user will be sent to the main menu and the user will be alerted to whether any
 appointments are scheduled to begin in the next fifteen minutes, or if credentials do not match, an error dialog
-will appear.  All login attempts whether successful or not will be recorded in an activity log.
+will appear.  All login attempts whether successful or not will be recorded in an activity log and saved in a .txt file.
 
 MAIN MENU SCREEN
 The main menu contains six buttons. This screen is the central hub for the application. All writes to the database will
@@ -112,7 +113,7 @@ appointment data from the table will be transferred into the fields on the modif
 
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-CUSTOMERS BY COUNTRY REPORT SCREEN <<<<<<<<<<<<<<<<DEVELOPERS CHOICE FROM A3f>>>>>>>>>>>>>>>>
+CUSTOMERS BY COUNTRY REPORT SCREEN
 The customers by country report screen displays a pie chart of customers.  Each slice represents a country and labels
 display the country name and quantity of customers.  When customer entries are added, modified, or deleted this chart
 will automatically update to match the customer records in the database.  With few customers it isn't very impressive,
